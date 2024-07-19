@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Preferences</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Bootstrap CSS if using -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+</head>
+<body>
+    <header>
+        <h1>My Persistent Preferences Page</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div id="preferences-panel">
+            <h2>Preferences</h2>
+            
+            <label for="theme">Select Theme:</label>
+            <select id="theme">
+                <option value="default">Default</option>
+                <option value="dark">Dark</option>
+                <option value="light">Light</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+            
+            <label for="list-style">Select List Style:</label>
+            <select id="list-style">
+                <option value="disc">Disc</option>
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+                <option value="none">None</option>
+            </select>
+            
+            <label for="background-image">Select Background Image:</label>
+            <select id="background-image">
+                <option value="none">None</option>
+                <option value="image1">Image 1</option>
+                <option value="image2">Image 2</option>
+                <option value="image3">Image 3</option>
+                <option value="image4">Image 4</option>
+                <option value="image5">Image 5</option>
+                <option value="image6">Image 6</option>
+            </select>
+        </div>
+        
+        <div id="list-container">
+            <h2>My List</h2>
+            <ul id="list"></ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 My Persistent Preferences Page</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

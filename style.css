@@ -1,0 +1,159 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(90deg, rgb(61, 119, 180) 0%, rgb(255, 255, 255) 100%);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(176, 151, 151, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #21262a;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #1f3ccd;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(90deg, rgb(2, 17, 33) 0%, rgb(192, 232, 232) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+}
+
+/* Preferences Panel */
+#preferences-panel {
+    background: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    padding: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+}
+
+/* List Container */
+#list-container {
+    background: #bab0b0;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(117, 45, 45, 0.1);
+    padding: 18px;
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #000000;
+}
+
+/* Themes */
+.default-theme {
+    background: #dce0e6;
+    color: #333;
+}
+
+.dark-theme {
+    background: #313030;
+    color: #564747;
+}
+
+.light-theme {
+    background: #ffffff;
+    color: #333;
+}
+
+.blue-theme {
+    background: #0f4e92;
+    color: #000000;
+}
+
+.green-theme {
+    background: #04641a;
+    color: #000000;
+}
+
+/* List Styles */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul.disc {
+    list-style-type: disc;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.none {
+    list-style-type: none;
+}
+
+li {
+    padding: 6px;
+    border-bottom: 1px solid #377dba;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #cab6b6;
+}
+
+/* Background Images */
+body.background-image1 {
+    background-image: url('images/image1.jpg'); 
+}
+
+body.background-image2 {
+    background-image: url('images/image2.jpg');
+}
+
+body.background-image3 {
+    background-image: url('images/image3.jpg');
+}
+
+body.background-image4 {
+    background-image: url('images/image4.jpg');
+}
+
+body.background-image5 {
+    background-image: url('images/image5.jpg');
+}
+
+body.background-image6 {
+    background-image: url('images/image6.jpg');
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+}
